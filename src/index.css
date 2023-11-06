@@ -13,6 +13,31 @@
   src: url("./assests/fonts/Graphit-Regular.woff2") format("woff2");
 }
 
+::selection {
+  color: #ffffff;
+  background-color: #F44E2B;
+}
+
+html, body {
+  -webkit-font-smoothing: antialiased;
+  /* background-color: #F3F2F7;
+  color: #181818; */
+}
+
+.project__image-clone {
+  transition: all 0.8s cubic-bezier(0.165,0.84,0.44,1);
+}
+
+@keyframes bannermove {
+  100% {
+    transform: translateX(-50%);
+  }
+}
+@keyframes bannermovertl {
+  100% {
+    transform: translateX(50%);
+  }
+}
 
 /* #F8E592 */
 /* #FFDED7 */
